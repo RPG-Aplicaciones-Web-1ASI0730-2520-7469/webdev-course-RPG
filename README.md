@@ -11,7 +11,7 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 **Pre-requisitos:** Ninguno  
 **Herramientas Necesarias:** Solo tu navegador web y una cuenta gratuita en [CodePen.io](https://codepen.io/)
 
-**Repositorio de Código Fuente:** [Link aquí](GETOUT)
+**Repositorio de Código Fuente:** [Link aquí](https://github.com/RPG-Aplicaciones-Web-1ASI0730-2520-7469/webdev-course-RPG)
 
 ---
 
@@ -120,7 +120,7 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 | 8 | Página Web Personal | [CodePen \| ¡Clic aquí!](https://codepen.io/pen) |
 | 9 | Buenas Prácticas Web | [CodePen \| ¡Clic aquí!](https://codepen.io/pen) |
 
-- **Cuestionario:** [Prueba de Conocimientos](https://forms.gle/the-test)
+- **Cuestionario:** [Prueba de Conocimientos]()
 
 ---
 
