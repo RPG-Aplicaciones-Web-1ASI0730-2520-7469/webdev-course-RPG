@@ -33,7 +33,6 @@ CSS (Cascading Style Sheets): Es la ropa y el estilo 🎨. Se encarga de darle a
 
 JavaScript (JS): Es el cerebro 🧠. Se encarga de la interactividad y el movimiento (botones, animaciones, lógica).
 
-Conclusión clave: Un sitio web combina Contenido (HTML), Estilo (CSS) e Interactividad (JS).
 ---
 
 ### Lección 2: Estructura Básica de una Página Web ( 7 minutos )
@@ -43,7 +42,6 @@ Conclusión clave: Un sitio web combina Contenido (HTML), Estilo (CSS) e Interac
 - **Práctica:**  
   Crea en CodePen una página con tu nombre como título y una breve descripción personal.
 
----
 1. Estructura Fundamental
 Aprendimos que toda página HTML sigue una jerarquía básica, compuesta por el head (información no visible) y el body (contenido visible).
 ```html<html>```: Contenedor principal.
@@ -66,6 +64,8 @@ El ejercicio de la lección nos pidió crear una página con nuestro nombre como
     <p>¡Hola! Estoy dando mis primeros pasos en el desarrollo web. Con HTML, aprendí a estructurar mi primera página con títulos y párrafos.</p>
     </body>
   ```
+---
+
 ### Lección 3: Etiquetas Comunes en HTML ( 7 minutos )
 - **Descripción:** Aprenderás las etiquetas más usadas en HTML: encabezados (`<h1>` a `<h6>`), párrafos (`<p>`), listas (`<ul>` y `<ol>`), enlaces (`<a>`) e imágenes (`<img>`). Verás cómo combinarlas para crear contenido atractivo.
 - **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
