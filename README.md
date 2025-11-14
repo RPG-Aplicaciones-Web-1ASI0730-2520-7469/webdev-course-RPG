@@ -21,15 +21,15 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 
 ### Lección 1: ¿Qué es el Desarrollo Web? ( 5 minutos )
 - **Descripción:** Descubre cómo se crean las páginas web que visitas todos los días. En esta lección conocerás la diferencia entre **HTML, CSS y JavaScript**, y entenderás qué hace cada uno. Exploraremos cómo los sitios web combinan contenido, estilo e interactividad.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/OOtPqxxqQPg)
 - **Conclusiones:** Ahora comprendes que el desarrollo web es el arte de construir y diseñar sitios para Internet. HTML estructura el contenido, CSS le da estilo y JavaScript agrega movimiento e interacción.
-- **Empieza a Programar:** [¡Abre CodePen y crea tu primer “Pen”!]([https://codepen.io/pen](https://www.youtube.com/watch?v=OOtPqxxqQPg))
+- **Empieza a Programar:** [¡Abre CodePen y crea tu primer “Pen”!]([https://codepen.io/pen])
 
 ---
 
 ### Lección 2: Estructura Básica de una Página Web ( 7 minutos )
 - **Descripción:** En esta lección aprenderás qué es **HTML (HyperText Markup Language)** y cómo se organiza una página web usando etiquetas. Construiremos la estructura básica con `<html>`, `<head>` y `<body>`, y añadiremos nuestro primer texto, título y párrafo.
-- **Enlace del Video:** [¡Clic aquí!]([https://www.youtube.com](https://www.youtube.com/watch?v=wRqivyK2tH8))
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/wRqivyK2tH8)
 - **Conclusiones:** Has aprendido cómo se compone una página web y para qué sirve cada parte del HTML. Ahora puedes crear tu primer documento con títulos y párrafos.
 - **Práctica:**  
   Crea en CodePen una página con tu nombre como título y una breve descripción personal.
