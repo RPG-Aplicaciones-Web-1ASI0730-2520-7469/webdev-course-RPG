@@ -223,11 +223,182 @@ iframe {
 - **Práctica:**  
   Crea tres secciones con bordes y márgenes diferentes para practicar el modelo de cajas.
 
+  ### Bloque de Código: HTML 
+
+```html
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <h1>David Vivar</h1>
+    <p class="subtitle">Estudiante de Ingeniería de Software</p>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section class="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Hola, soy David. Me gusta el desarrollo web, el diseño de software 
+      y aprender nuevas tecnologías. Esta página forma parte de mi exposición 
+      de las Lecciones 8 y 9 de Desarrollo Web.
+    </p>
+  </section>
+
+  <!-- IMAGEN -->
+  <section class="image-section">
+    <h2>Mi foto</h2>
+    <img src="https://muyinteresante.okdiario.com/wp-content/uploads/sites/5/2022/10/12/6346de5f5100d.jpeg" alt="Foto de David">
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML básico</li>
+      <li>CSS básico</li>
+      <li>Diseño de interfaces</li>
+      <li>Resolución de problemas</li>
+    </ul>
+  </section>
+
+  <!-- REDES -->
+  <section class="links">
+    <h2>Mis redes</h2>
+    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+  </section>
+
+  <!-- MENSAJE ANIMADO -->
+  <section class="mensaje">
+    <h2>Mensaje del día</h2>
+    <p id="dynamicMessage">Cargando mensaje...</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 David Vivar – Página personal</p>
+  </footer>
+
+</div>
+
+```
+
+### Bloque de Código: CSS
+
+```css
+
+/* ESTILOS GENERALES */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* CONTENEDOR */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* CAJAS */
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* IMAGEN */
+.image-section img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* HABILIDADES */
+.skills ul {
+  padding-left: 20px;
+}
+
+/* ENLACES */
+.links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* MENSAJE DEL DÍA */
+.mensaje p {
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: center;
+  color: #444;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  color: #555;
+}
+
+```
+
+```js
+
+// Arreglo de mensajes positivos
+const mensajes = [
+  "El mejor momento para aprender es ahora.",
+  "Cada línea de código te hace mejor.",
+  "El progreso constante supera al talento.",
+  "La web es tu lienzo. Diseña sin miedo.",
+  "Sigue aprendiendo. El límite lo pones tú."
+];
+
+// Escoger mensaje aleatorio
+const mensajeAleatorio = mensajes[Math.floor(Math.random() * mensajes.length)];
+
+// Insertar en el HTML
+document.getElementById("dynamicMessage").textContent = mensajeAleatorio;
+
+
 ---
 
 ### Lección 8: Tu Primera Página Web Personal ( 7 minutos )
 - **Descripción:** En esta lección aplicarás todo lo aprendido para construir tu primera **página personal completa**, con tu foto, descripción, enlaces, colores y estilos personalizados.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://studio.youtube.com/video/_S-yuQ7H3Js/edit)
 - **Conclusiones:** ¡Felicidades! Has creado tu primera página web. Has combinado HTML y CSS para diseñar un sitio completo que puedes compartir con amigos y familiares.
 - **Práctica:**  
   Diseña una página personal con:
@@ -240,7 +411,7 @@ iframe {
 
 ### Lección 9: Buenas Prácticas y Siguientes Pasos ( 6 minutos )
 - **Descripción:** En esta última lección aprenderás las buenas prácticas al crear sitios web: usar etiquetas semánticas, mantener tu código limpio y probar tus diseños en distintos dispositivos. También conocerás los próximos pasos: **HTML avanzado, CSS Flexbox y JavaScript.**
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://studio.youtube.com/video/F9O5vUnTMmk/edit)
 - **Conclusiones:** Has completado los fundamentos del desarrollo web. Ya puedes crear páginas básicas, aplicar estilos y comprender cómo se estructura Internet por dentro. ¡Tu camino como desarrollador web recién empieza!
 - **Práctica:**  
   Mejora tu página aplicando las recomendaciones vistas.
