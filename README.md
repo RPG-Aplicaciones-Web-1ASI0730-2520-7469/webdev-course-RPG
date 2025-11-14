@@ -19,7 +19,7 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 
 ---
 
-### Lección 1: ¿Qué es el Desarrollo Web? ( 5 minutos )
+### Lección 1: ¿Qué es el Desarrollo Web?
 - **Descripción:** Descubre cómo se crean las páginas web que visitas todos los días. En esta lección conocerás la diferencia entre **HTML, CSS y JavaScript**, y entenderás qué hace cada uno. Exploraremos cómo los sitios web combinan contenido, estilo e interactividad.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/OOtPqxxqQPg)
 - **Conclusiones:** Ahora comprendes que el desarrollo web es el arte de construir y diseñar sitios para Internet. HTML estructura el contenido, CSS le da estilo y JavaScript agrega movimiento e interacción.
@@ -35,7 +35,7 @@ JavaScript (JS): Es el cerebro 🧠. Se encarga de la interactividad y el movimi
 
 ---
 
-### Lección 2: Estructura Básica de una Página Web ( 7 minutos )
+### Lección 2: Estructura Básica de una Página Web
 - **Descripción:** En esta lección aprenderás qué es **HTML (HyperText Markup Language)** y cómo se organiza una página web usando etiquetas. Construiremos la estructura básica con `<html>`, `<head>` y `<body>`, y añadiremos nuestro primer texto, título y párrafo.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/wRqivyK2tH8)
 - **Conclusiones:** Has aprendido cómo se compone una página web y para qué sirve cada parte del HTML. Ahora puedes crear tu primer documento con títulos y párrafos.
@@ -66,7 +66,7 @@ El ejercicio de la lección nos pidió crear una página con nuestro nombre como
   ```
 ---
 
-### Lección 3: Etiquetas Comunes en HTML ( 7 minutos )
+### Lección 3: Etiquetas Comunes en HTML
 - **Descripción:** Aprenderás las etiquetas más usadas en HTML: encabezados (`<h1>` a `<h6>`), párrafos (`<p>`), listas (`<ul>` y `<ol>`), enlaces (`<a>`) e imágenes (`<img>`). Verás cómo combinarlas para crear contenido atractivo.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/y8ki4BezEpk?si=luzAWPpq7jQ3Bz0t)
 - **Conclusiones:** Ahora sabes cómo agregar texto, listas, imágenes y enlaces a tu página. Estas etiquetas son la base de cualquier sitio web.
@@ -109,7 +109,7 @@ El ejercicio de la lección nos pidió crear una página con nuestro nombre como
 
 ---
 
-### Lección 4: Introducción al CSS: Colores y Estilos ( 6 minutos )
+### Lección 4: Introducción al CSS: Colores y Estilos
 - **Descripción:** En esta lección conocerás **CSS (Cascading Style Sheets)**, el lenguaje que da color y diseño a las páginas. Aprenderás a cambiar el color del texto, el fondo y el tipo de letra.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/gIyneYwcucM)
 - **Conclusiones:** Has aprendido a usar CSS para mejorar la apariencia de tu página. Ahora puedes combinar HTML y CSS para expresar tu propio estilo.
@@ -146,7 +146,7 @@ p{
 
 ---
 
-### Lección 5: Selectores y Propiedades en CSS ( 8 minutos)
+### Lección 5: Selectores y Propiedades en CSS
 - **Descripción:** Aprenderás a aplicar estilos usando **selectores** (por etiqueta, clase o id) y a combinar propiedades como `color`, `font-size`, `margin` y `padding`. Descubrirás cómo controlar el diseño de cada parte de tu página.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/BZ7POI6G8Ls)
 - **Conclusiones:** Ahora entiendes cómo aplicar estilos específicos a diferentes elementos. Los selectores son la clave para personalizar cada parte de tu sitio.
@@ -206,7 +206,7 @@ p{
 
 ---
 
-### Lección 6: Imágenes, Enlaces y Multimedia ( 7 minutos )
+### Lección 6: Imágenes, Enlaces y Multimedia
 - **Descripción:** Aprenderás cómo insertar imágenes desde Internet, agregar videos de YouTube y enlaces a otras páginas. Verás cómo hacer que tu web sea más visual y dinámica.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/P2zh2uR5pqY)
 - **Conclusiones:** Ya puedes combinar texto, imágenes y videos para crear contenido visual. Tu página comienza a cobrar vida.
@@ -250,7 +250,7 @@ iframe {
 
 ---
 
-### Lección 7: Diseño con Cajas (Box Model) ( 7 minutos )
+### Lección 7: Diseño con Cajas (Box Model)
 - **Descripción:** Descubrirás cómo funciona el **modelo de cajas** de CSS, que define cómo se organizan los elementos en la pantalla. Aprenderás qué son los márgenes, bordes y rellenos (padding), y cómo ajustar el espacio visual entre tus elementos.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/VDmvhRo17hg)
 - **Conclusiones:** Has entendido cómo cada elemento ocupa un espacio propio. El modelo de cajas es fundamental para ordenar tus páginas y lograr diseños limpios.
@@ -350,7 +350,7 @@ p{
 
 ---
 
-### Lección 8: Tu Primera Página Web Personal ( 7 minutos )
+### Lección 8: Tu Primera Página Web Personal
 - **Descripción:** En esta lección aplicarás todo lo aprendido para construir tu primera **página personal completa**, con tu foto, descripción, enlaces, colores y estilos personalizados.
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/_S-yuQ7H3Js)
 - **Conclusiones:** ¡Felicidades! Has creado tu primera página web. Has combinado HTML y CSS para diseñar un sitio completo que puedes compartir con amigos y familiares.
@@ -532,7 +532,7 @@ document.getElementById("dynamicMessage").textContent = mensajeAleatorio;
 ```
 ---
 
-### Lección 9: Buenas Prácticas y Siguientes Pasos ( 6 minutos )
+### Lección 9: Buenas Prácticas y Siguientes Pasos
 - **Descripción:** En esta última lección aprenderás las buenas prácticas al crear sitios web: usar etiquetas semánticas, mantener tu código limpio y probar tus diseños en distintos dispositivos. También conocerás los próximos pasos: **HTML avanzado, CSS Flexbox y JavaScript.**
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/F9O5vUnTMmk)
 - **Conclusiones:** Has completado los fundamentos del desarrollo web. Ya puedes crear páginas básicas, aplicar estilos y comprender cómo se estructura Internet por dentro. ¡Tu camino como desarrollador web recién empieza!
