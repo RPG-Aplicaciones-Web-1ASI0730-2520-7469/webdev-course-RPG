@@ -459,4 +459,4 @@ NRC 7469
 | Mike Dylan, Guillen Giraldo     | U202211881 |
 
 
-**Fecha de Entrega:** XX/11/2025
+**Fecha de Entrega:** 13/11/2025
