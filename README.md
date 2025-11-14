@@ -24,7 +24,16 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 - **Enlace del Video:** [¡Clic aquí!](https://youtu.be/OOtPqxxqQPg)
 - **Conclusiones:** Ahora comprendes que el desarrollo web es el arte de construir y diseñar sitios para Internet. HTML estructura el contenido, CSS le da estilo y JavaScript agrega movimiento e interacción.
 - **Empieza a Programar:** [¡Abre CodePen y crea tu primer “Pen”!]([https://codepen.io/pen])
+---
+En esta lección, aprendimos que el Desarrollo Web es el proceso de construir y diseñar sitios para Internet. Conocimos a los tres lenguajes fundamentales que trabajan juntos para crear lo que vemos en el navegador:
 
+HTML (HyperText Markup Language): Es el esqueleto 🦴. Se encarga de la estructura y el contenido (texto, títulos, imágenes).
+
+CSS (Cascading Style Sheets): Es la ropa y el estilo 🎨. Se encarga de darle apariencia (colores, fuentes y diseño).
+
+JavaScript (JS): Es el cerebro 🧠. Se encarga de la interactividad y el movimiento (botones, animaciones, lógica).
+
+Conclusión clave: Un sitio web combina Contenido (HTML), Estilo (CSS) e Interactividad (JS).
 ---
 
 ### Lección 2: Estructura Básica de una Página Web ( 7 minutos )
@@ -35,7 +44,27 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
   Crea en CodePen una página con tu nombre como título y una breve descripción personal.
 
 ---
+1. Estructura Fundamental
+Aprendimos que toda página HTML sigue una jerarquía básica, compuesta por el head (información no visible) y el body (contenido visible).
+<html> Contenedor principal.
+<head> Contiene metadatos, como el título de la pestaña (<title>).
+<body> Contiene todo lo que el usuario ve.
+<h1>	Título principal de la página.
+<p>	Párrafo simple de texto.
+  
+2. Etiquetas de Contenido
+Practicamos cómo usar etiquetas esenciales dentro del <body> para darle significado a nuestro texto.
+Etiqueta	Función
+<h1>	Título principal de la página.
+<p>	Párrafo simple de texto.
 
+3. Código de Práctica
+El ejercicio de la lección nos pidió crear una página con nuestro nombre como título y una breve descripción. El código HTML resultante (lo que iría dentro del <body> en CodePen) es el siguiente:
+<body>
+    <h1>Abraaam</h1>
+    <p>¡Hola! Estoy dando mis primeros pasos en el desarrollo web. Con HTML, aprendí a estructurar mi primera página con títulos y párrafos.</p>
+    </body>
+  
 ### Lección 3: Etiquetas Comunes en HTML ( 7 minutos )
 - **Descripción:** Aprenderás las etiquetas más usadas en HTML: encabezados (`<h1>` a `<h6>`), párrafos (`<p>`), listas (`<ul>` y `<ol>`), enlaces (`<a>`) e imágenes (`<img>`). Verás cómo combinarlas para crear contenido atractivo.
 - **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
