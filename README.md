@@ -45,19 +45,98 @@ A través de ejemplos visuales y prácticas en **CodePen**, crearás tu primera 
 
 ---
 
-### Lección 4: Introducción al CSS: Colores y Estilos ( 7 minutos )
+### Lección 4: Introducción al CSS: Colores y Estilos ( 6 minutos )
 - **Descripción:** En esta lección conocerás **CSS (Cascading Style Sheets)**, el lenguaje que da color y diseño a las páginas. Aprenderás a cambiar el color del texto, el fondo y el tipo de letra.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/gIyneYwcucM)
 - **Conclusiones:** Has aprendido a usar CSS para mejorar la apariencia de tu página. Ahora puedes combinar HTML y CSS para expresar tu propio estilo.
+
+---
+
+### Bloque de Código: HTML 
+
+```html
+<h1>¡Hola, CSS!</h1>
+<p>Estoy aprendiendo a usar estilos en mi pagina web</p>
+```
+
+### Bloque de Código: CSS
+
+```css
+
+h1 {
+  color: #299DFC;
+  background-color: lightgray;
+  text-align: center;
+}
+body{
+  background-color: lightyellow;
+}
+p{
+  color: darkgreen;
+  font-family: arial, sans-serif;
+}
+```
+
 - **Práctica:**  
   Usa CSS en CodePen para cambiar el color del fondo y del texto de tu página.
 
 ---
 
-### Lección 5: Selectores y Propiedades en CSS ( 7 minutos)
+### Lección 5: Selectores y Propiedades en CSS ( 8 minutos)
 - **Descripción:** Aprenderás a aplicar estilos usando **selectores** (por etiqueta, clase o id) y a combinar propiedades como `color`, `font-size`, `margin` y `padding`. Descubrirás cómo controlar el diseño de cada parte de tu página.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/BZ7POI6G8Ls)
 - **Conclusiones:** Ahora entiendes cómo aplicar estilos específicos a diferentes elementos. Los selectores son la clave para personalizar cada parte de tu sitio.
+
+---
+
+### Bloque de Código: HTML 
+
+```html
+<h1 id="titulo-principal">Bienvenido a mi página 🎨</h1>
+
+<p>Este es un párrafo normal, sin estilos especiales.</p>
+
+<p class="importante">
+  Este texto es importante y tiene una clase aplicada.
+</p>
+
+<p>Otro párrafo común para ver la diferencia.</p>
+
+<div class="caja">
+  <h2>Contenido dentro de la caja 📦</h2>
+  <p>Esta caja tiene fondo, borde y márgenes. ¡Y se ve genial!</p>
+</div>
+
+<footer>
+  <p>© 2025 Mi Página Web, Creado por [Tu nombre]</p>
+</footer>
+```
+### Bloque de Código: CSS
+```css
+p{
+  color: blue;
+}
+
+.importante {
+  color: red;
+  background-color: #ffe5e5;
+}
+
+#titulo-principal{
+  color: #6a0dad;
+  text-align: center;
+}
+
+.caja {
+  background-color: #b3e5fc;
+  border: 3px solid #0277bd;
+  margin: 25px auto;
+  padding: 20px;
+  width: 280px;
+  border_radius: 12px;
+  text-align: center;
+}
+```
 - **Práctica:**  
   Crea una clase llamada `.caja` y aplícale color de fondo, borde y márgenes.
 
