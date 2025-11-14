@@ -223,7 +223,22 @@ iframe {
 - **Práctica:**  
   Crea tres secciones con bordes y márgenes diferentes para practicar el modelo de cajas.
 
-  ### Bloque de Código: HTML 
+---
+
+### Lección 8: Tu Primera Página Web Personal ( 7 minutos )
+- **Descripción:** En esta lección aplicarás todo lo aprendido para construir tu primera **página personal completa**, con tu foto, descripción, enlaces, colores y estilos personalizados.
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/_S-yuQ7H3Js)
+- **Conclusiones:** ¡Felicidades! Has creado tu primera página web. Has combinado HTML y CSS para diseñar un sitio completo que puedes compartir con amigos y familiares.
+- **Práctica:**  
+  Diseña una página personal con:
+    - Tu nombre y una breve biografía
+    - Una imagen
+    - Enlaces a tus redes o intereses
+    - Un esquema de colores personalizado
+
+---
+
+### Bloque de Código: HTML 
 
 ```html
 <div class="container">
@@ -264,7 +279,7 @@ iframe {
   <!-- REDES -->
   <section class="links">
     <h2>Mis redes</h2>
-    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/DarkBeider20" target="_blank" rel="noopener">GitHub</a>
     <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
   </section>
@@ -283,11 +298,8 @@ iframe {
 </div>
 
 ```
-
 ### Bloque de Código: CSS
-
 ```css
-
 /* ESTILOS GENERALES */
 body {
   font-family: Arial, sans-serif;
@@ -375,9 +387,8 @@ footer {
 }
 
 ```
-
+### Bloque de Código: JS
 ```js
-
 // Arreglo de mensajes positivos
 const mensajes = [
   "El mejor momento para aprender es ahora.",
@@ -393,25 +404,12 @@ const mensajeAleatorio = mensajes[Math.floor(Math.random() * mensajes.length)];
 // Insertar en el HTML
 document.getElementById("dynamicMessage").textContent = mensajeAleatorio;
 
-
----
-
-### Lección 8: Tu Primera Página Web Personal ( 7 minutos )
-- **Descripción:** En esta lección aplicarás todo lo aprendido para construir tu primera **página personal completa**, con tu foto, descripción, enlaces, colores y estilos personalizados.
-- **Enlace del Video:** [¡Clic aquí!](https://studio.youtube.com/video/_S-yuQ7H3Js/edit)
-- **Conclusiones:** ¡Felicidades! Has creado tu primera página web. Has combinado HTML y CSS para diseñar un sitio completo que puedes compartir con amigos y familiares.
-- **Práctica:**  
-  Diseña una página personal con:
-    - Tu nombre y una breve biografía
-    - Una imagen
-    - Enlaces a tus redes o intereses
-    - Un esquema de colores personalizado
-
+```
 ---
 
 ### Lección 9: Buenas Prácticas y Siguientes Pasos ( 6 minutos )
 - **Descripción:** En esta última lección aprenderás las buenas prácticas al crear sitios web: usar etiquetas semánticas, mantener tu código limpio y probar tus diseños en distintos dispositivos. También conocerás los próximos pasos: **HTML avanzado, CSS Flexbox y JavaScript.**
-- **Enlace del Video:** [¡Clic aquí!](https://studio.youtube.com/video/F9O5vUnTMmk/edit)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/F9O5vUnTMmk)
 - **Conclusiones:** Has completado los fundamentos del desarrollo web. Ya puedes crear páginas básicas, aplicar estilos y comprender cómo se estructura Internet por dentro. ¡Tu camino como desarrollador web recién empieza!
 - **Práctica:**  
   Mejora tu página aplicando las recomendaciones vistas.
