@@ -46,17 +46,17 @@ Conclusión clave: Un sitio web combina Contenido (HTML), Estilo (CSS) e Interac
 ---
 1. Estructura Fundamental
 Aprendimos que toda página HTML sigue una jerarquía básica, compuesta por el head (información no visible) y el body (contenido visible).
-<html>: Contenedor principal.
-<head>: Contiene metadatos, como el título de la pestaña (<title>).
-<body>: Contiene todo lo que el usuario ve.
-<h1>:	Título principal de la página.
-<p>:	Párrafo simple de texto.
+```html<html>```: Contenedor principal.
+```html<head>```: Contiene metadatos, como el título de la pestaña (<title>).
+```html<body>```: Contiene todo lo que el usuario ve.
+```html<h1>```:	Título principal de la página.
+```html<p> ```:	Párrafo simple de texto.
   
 2. Etiquetas de Contenido
 Practicamos cómo usar etiquetas esenciales dentro del <body> para darle significado a nuestro texto.
 Etiqueta	Función
-<h1>:	Título principal de la página.
-<p>:	Párrafo simple de texto.
+```html<h1>```:	Título principal de la página.
+```html<p>```:	Párrafo simple de texto.
 
 3. Código de Práctica
 El ejercicio de la lección nos pidió crear una página con nuestro nombre como título y una breve descripción. El código HTML resultante (lo que iría dentro del <body> en CodePen) es el siguiente:
