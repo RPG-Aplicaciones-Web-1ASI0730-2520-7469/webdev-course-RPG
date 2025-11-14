@@ -252,8 +252,99 @@ iframe {
 
 ### Lección 7: Diseño con Cajas (Box Model) ( 7 minutos )
 - **Descripción:** Descubrirás cómo funciona el **modelo de cajas** de CSS, que define cómo se organizan los elementos en la pantalla. Aprenderás qué son los márgenes, bordes y rellenos (padding), y cómo ajustar el espacio visual entre tus elementos.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/VDmvhRo17hg)
 - **Conclusiones:** Has entendido cómo cada elemento ocupa un espacio propio. El modelo de cajas es fundamental para ordenar tus páginas y lograr diseños limpios.
+
+### Bloque de Código: HTML
+
+```html
+<h3>Ejercicio 1: Padding</h3>
+<div class="box-1"> <p>box-1</p> </div>
+
+<h3>Ejercicio 2: Borde</h3>
+<div class="box-2"> <p>box-2</p> </div>
+
+<h3>Ejercicio 3: Margin</h3>
+<div class="box-3"> <p>box-3</p> </div>
+```
+
+### Bloque de Código: CSS
+```css
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+}
+
+div{
+  height: 150px;
+  width: 350px;
+  background: #F5A623;
+  margin: 20px;
+}
+
+p{
+  margin:0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Ejercicios */
+.box-1 {
+  padding: 10px; /* agrega espacio dentro de la caja */
+  border: 2px solid black; /* opcional, para ver mejor el box */
+  
+  /* Altura y Anchura*/
+  height: 125px;
+  width: 175px;
+  background: #F5A623;
+  
+  /*Moviendo el texto*/
+  text-align: center;
+  line-height: 1px;
+}
+
+.box-2 {
+  border: 5px dashed red; /* borde visible y diferente */
+  padding: 10px; /* un poco de padding para notar el efecto */
+  
+  /* Altura y Anchura*/
+  height: 125px;
+  width: 175px;
+   background: #50E3C2;
+  
+   /*Moviendo el texto*/
+  text-align: center;
+  line-height: 105px;
+}
+
+.box-3 {
+  border: 3px solid green; /* borde visible */
+  padding: 15px; /* espacio dentro */
+  margin: 150px; /* aumenta el espacio afuera, separando las cajas */
+  
+  height: 125px;
+  width: 175px;
+  background: #B8E986;
+  
+  position: relative; 
+  /* Todo lo que esté dentro de mí que use absolute se va a mover respecto a mí, no a toda la página. */
+  
+}
+
+.box-3 p {
+  position: absolute; 
+  /* Muéveme exactamente a donde yo diga, relativo a mi contenedor más cercano que sea relative. */
+  
+  bottom: 0;          /* pegado al borde inferior */
+  right: 0;           /* pegado al borde derecho */
+  margin: 0;           /* eliminar márgenes por defecto */
+  padding: 5px;        /* opcional: un pequeño espacio del borde */
+}
+
+```
+
 - **Práctica:**  
   Crea tres secciones con bordes y márgenes diferentes para practicar el modelo de cajas.
 
