@@ -68,10 +68,44 @@ El ejercicio de la lección nos pidió crear una página con nuestro nombre como
 
 ### Lección 3: Etiquetas Comunes en HTML ( 7 minutos )
 - **Descripción:** Aprenderás las etiquetas más usadas en HTML: encabezados (`<h1>` a `<h6>`), párrafos (`<p>`), listas (`<ul>` y `<ol>`), enlaces (`<a>`) e imágenes (`<img>`). Verás cómo combinarlas para crear contenido atractivo.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/y8ki4BezEpk?si=luzAWPpq7jQ3Bz0t)
 - **Conclusiones:** Ahora sabes cómo agregar texto, listas, imágenes y enlaces a tu página. Estas etiquetas son la base de cualquier sitio web.
 - **Práctica:**  
   Agrega una lista con tus pasatiempos y un enlace a tu red social favorita (sin revelar información personal).
+
+```html
+<h1>Mis tes favoriots</h1>
+<p>En esta seccion conoceran mis tes favoritos</p>
+
+<h2>Mis tes preferidos</h2>
+
+<ul>
+  <li>Te verde</li>
+  <li>Te blanco</li>
+  <li>Te negro</li>
+</ul>
+
+<h2>Pasos para hacer un te</h2>
+  <ol>
+    <li>Hervir agua</li>
+    <li>Colocar el sobre de te en la tasa</li>
+    <li>Hechar el agua caliente en la tasa</li>
+    <li>Esperar a que el te se disuelva y disfrutar</li>
+  </ol>
+
+<p>
+  <a href="https://www.youtube.com/watch?v=xtnJ4IdfM5U" target="_blank">
+    Click aqui para ver un video
+  </a>
+</p>
+
+<p>
+  <img
+       src = "https://www.cafe-mx.com/blog/app/assets/media/2021/01/datos_curiosos_sobre_el_te.jpg"
+       alt = "Imagen de te"
+   />
+ </p>
+  ```
 
 ---
 
