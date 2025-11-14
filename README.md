@@ -144,8 +144,43 @@ p{
 
 ### Lección 6: Imágenes, Enlaces y Multimedia ( 7 minutos )
 - **Descripción:** Aprenderás cómo insertar imágenes desde Internet, agregar videos de YouTube y enlaces a otras páginas. Verás cómo hacer que tu web sea más visual y dinámica.
-- **Enlace del Video:** [¡Clic aquí!](https://www.youtube.com)
+- **Enlace del Video:** [¡Clic aquí!](https://youtu.be/P2zh2uR5pqY)
 - **Conclusiones:** Ya puedes combinar texto, imágenes y videos para crear contenido visual. Tu página comienza a cobrar vida.
+
+### Bloque de Código: HTML
+
+```html
+<h1> Lección 6</h1>
+
+<!-- Imagen -->
+<img src ="https://i.postimg.cc/RZM9PZm6/Fondo.jpg" alt = "Imagen de ejemplo ">
+
+<!-- Enlace -->
+
+<p> Pagina web: </p>
+
+<a href="https://developer.mozilla.org/es/docs/Web/HTML" target = "_blank">PaginaEjemplo</a>
+
+<!-- Video -->
+<h2> Video Ejemplo: </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N_qZKPGCxBg?si=2xEXVaq7NOOxeXdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+### Bloque de Código: CSS
+```css
+img {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 90%;
+  max-width: 560px;
+  border-radius: 10px;
+}
+```
+
 - **Práctica:**  
   Agrega una imagen representativa y un video embebido de YouTube que te inspire.
 
